@@ -1,0 +1,143 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: seashell;
+}
+
+h2, h4 {
+  color: seashell;
+  opacity: 0.9;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+  margin: auto auto;
+}
+
+/* Nav */
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.nav-button {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+
+/* Mission */
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  background-image: url(../images/mission-background.jpg);
+}
+
+.mission-text {
+  width: 100%;
+  background-color: black;
+}
+
+/* Tea Month */
+
+.month-tea {
+  display: block;
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.image-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-images img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+/* Locations */
+
+.locations {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+  padding-top: 50px;
+}
+
+.location-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 0 20px 0 20px;
+}
+
+/* Contact */
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  margin-left: 20px;
+  text-align: left;
+}
